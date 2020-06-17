@@ -35,7 +35,6 @@ def generateRandomCharacters(stringLength=0, options=0):
         "Length of the password is to short to include all types of the characters.")
       return generateRandomString(setsTogether, stringLength)
     else:
-      # TODO Odejmij od długości hasła długość tablicy (kazdy typ przynajmniej 1 raz) i reszte losowo rozdziel miedzy typami. Potem trzeba losowo wybrać miejsce w resultcie
       stringLength -= len(sets)
       tempStringLength = stringLength
       for i in range(0, numberOfSets):
