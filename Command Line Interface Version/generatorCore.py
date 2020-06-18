@@ -50,14 +50,14 @@ def generateRandomCharacters(stringLength=0, options=0):
       debug([setsTogether, result])
       return result
 
-  choosenStrings = []
+  chosenStrings = []
   tempOptions = options
   for i in range(3, 0-1, -1):
     if tempOptions >= 2 ** i:
       tempOptions = tempOptions-2**i
-      choosenStrings.append(setsOfCharacters[i])
+      chosenStrings.append(setsOfCharacters[i])
 
-  if len(choosenStrings) == 0:
+  if len(chosenStrings) == 0:
     print("You did not choose any set of characters.")
 
-  return generateFormula(stringLength, choosenStrings)
+  return generateFormula(stringLength, chosenStrings)
