@@ -35,7 +35,7 @@ while True:
 
   # First digit (2^3 / 8) stands for lowercase letters
   # Last digit (2^0 / 1) stands for uppercase letters
-  # Third digit (2^1 / 2) stands for !@#./ like characters
+  # Third digit (2^1 / 2) stands for !@#./ type of characters
   # Second digit (2^2 / 4) stands for digits
 
   option = 8
