@@ -15,7 +15,6 @@ setsOfCharacters = {
   0: string.ascii_uppercase,
 }
 
-
 def printWarning(infoString=""):
   print("[Warning] "+infoString)
 
