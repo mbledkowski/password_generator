@@ -23,5 +23,5 @@ pyinstaller --noconfirm --onefile --windowed --icon "./icon.ico" --name "Passwor
 ## Technologies:
  - Python 
    - "random" and "string" build-in libraries
- - Tkinter (in GUI version)
+ - TkInter (in GUI version)
  - pyinstaller (and its GUI overlay - auto-py-to-exe)
