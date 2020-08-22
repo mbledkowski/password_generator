@@ -24,4 +24,4 @@ pyinstaller --noconfirm --onefile --windowed --icon "./icon.ico" --name "Passwor
  - Python 
    - "random" and "string" build-in libraries
  - TkInter (in GUI version)
- - pyinstaller (and GUI interface - auto-py-to-exe)
+ - pyinstaller (and its GUI interface - auto-py-to-exe)
