@@ -24,7 +24,7 @@ def generate():
 canvas = tk.Canvas(root, height=height, width=width)
 frame = tk.Frame(root, bg=black)
 items = tk.Frame(frame)
-title = tk.Label(items, text="Password generator by mmble", bg=black, fg=green, font=("Roboto", 16))
+title = tk.Label(items, text="Password generator by mbledkowski", bg=black, fg=green, font=("Roboto", 16))
 content = tk.Frame(items, bg=black)
 entry = tk.Entry(content, bg=grey, fg=white, border=0, font=("Consolas", 34), justify='center')
 button = tk.Button(content, text="Generate", bg=green, fg=grey, border=0, font=("Roboto", 22), command=generate, cursor="hand2")
